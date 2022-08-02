@@ -1,0 +1,77 @@
+template{
+    height:auto;
+    width:960px;
+    margin:10px auto;
+}
+
+#main{
+    height: 25px;
+    width:960px;
+    border:1px solid #000;
+    margin: 5px 0 5px 0;
+    background-color: white;
+}
+
+#main .menu{
+    width:960px;
+    margin:auto;
+}
+
+#main .menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+#main .menu ul li{
+    list-style: none;
+    float:left;
+    margin-top: 3px;  
+}
+ 
+#main .menu ul li a{
+    text-decoration: none;
+}
+
+#main .menu ul li a span{
+    padding: 7px 20px 7px;
+}
+
+#header{
+    height: 150px;
+    width: 960px;
+    border: 1px solid #000;
+    border-radius:5px 5px 0 0;
+    background-color: gray;
+    
+}
+
+#content{
+    height: 300px;
+    width: 100%;
+    background-image: url('../img/mesjid.jpg');
+}
+
+#left-content{
+    height: 100%;
+    width: 35%;
+    border: 1px solid #000;
+    float: left;
+    background-color: green;
+}
+
+
+
+.d-flex button{
+    margin: 1.5em .6em;
+    padding: .3em 2.4em;
+}
+
+table .btnedit{
+    color:lightgreen;
+    cursor: pointer;
+}
+
+table .btndelete{
+    color: tomato;
+    cursor: pointer;
+}
